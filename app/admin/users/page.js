@@ -95,10 +95,10 @@ const ConfirmModal = ({ isOpen, onClose, onConfirm, title, message }) => {
             </div>
           </div>
 
-          <p className="text-gray-300 text-sm leading-relaxed mb-8 font-mono border-l-2 border-red-600 pl-4">
+          <div className="text-gray-300 text-sm leading-relaxed mb-8 font-mono border-l-2 border-red-600 pl-4">
             {message} <br/>
-            <span className="text-red-500 font-bold block mt-2">>> THIS ACTION CANNOT BE UNDONE.</span>
-          </p>
+            <span className="text-red-500 font-bold block mt-2">&gt;&gt; THIS ACTION CANNOT BE UNDONE.</span>
+          </div>
 
           <div className="flex space-x-4">
             <button
